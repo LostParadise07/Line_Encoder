@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import random
 ''' Implemention of line coding encoder and scrambler in python by
-by Asrar And Arpunit'''
+by Asrar, Arpunit and Fatima'''
 
 def randSeq(l, prob):
     random.seed(0)
@@ -285,7 +285,7 @@ def draw(result, bit, data):
 
 
 if __name__ == '__main__':
-    print("Welcome to Asrar's And Arpunit's Line Encoder")
+    print("Welcome to Asrar's, Arpunit's and Fatima's Line Encoder")
     print("Choose the following\n 1:Intialize Random Input\n 2:Enter Custom Input")
     ch = int(input())
     if ch == 1:
